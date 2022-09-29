@@ -1,0 +1,97 @@
+.gallery-modal.open{
+  background-color: rgba(16, 15, 15, 0.778);
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  height: 100vh;
+}
+
+.gallery-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.gallery-selected-img-container {
+  position: relative;
+  margin-top: 7.5rem;
+}
+
+.gallery-selected-img {
+  width: 470px;
+  height: 500px;
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.gallery-thumbnails-container {
+  display: flex;
+  gap: 30px;
+}
+
+.gall-thumbnail img{
+  width: 80px;
+  border-radius: 10px;
+  height: 80px;
+}
+
+.gall-thumbnail img:hover {
+  filter:contrast(.4) brightness(140%);
+}
+
+.gall-thumbnail.gal-selected{
+  width: 83px;
+  height: 83px;
+  border: 6px solid hsl(26, 100%, 55%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.gall-thumbnail.gal-selected img {
+  filter:contrast(.2) brightness(170%);
+}
+
+#gall-previous, #gall-next{
+  background-color: white;
+  padding: 1.4rem;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  top: 43%;
+}
+
+#gall-next {
+  right: -30px;
+}
+
+#gall-previous {
+  left: -30px;
+}
+
+#gall-next:hover {
+  content: url('../../images/icon-next-hover.svg');
+}
+
+#gall-previous:hover {
+  content: url('../../images/icon-previous-hover.svg');
+}
+
+#gall-close {
+  position: absolute;
+  top: 11%;
+  right: 0;
+  width: 17px;
+}
+
+#gall-close:hover {
+  content: url('../images/icon-close-orange.svg');
+}

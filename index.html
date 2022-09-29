@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | E-commerce Product Page</title>
+  <link href="./stylesheets/styles.css" rel="stylesheet">
+  <link href="./stylesheets/gallery-modal.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/24fb1bbe12.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="header-navbar">
+      <img src="../images/logo.svg" id="logo" alt="logo">
+      <img src="../images/icon-menu.svg" alt="menu-icon" id="menu-icon">
+      <nav class="mobile-nav">
+        <div id="nav-bg">
+          <img src="./images/icon-close.svg" alt="close" class="close-nav">
+          <ul class="mobile-navbar active">
+            <li class="nav-links"><a href="#">Collections</a></li>
+            <li class="nav-links"><a href="#">Men</a></li>
+            <li class="nav-links"><a href="#">Women</a></li>
+            <li class="nav-links"><a href="#">About</a></li>
+            <li class="nav-links"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="default-navbar">
+        <ul>
+          <li class="nav-links"><a href="#">Collections</a></li>
+          <li class="nav-links"><a href="#">Men</a></li>
+          <li class="nav-links"><a href="#">Women</a></li>
+          <li class="nav-links"><a href="#">About</a></li>
+          <li class="nav-links"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-icons">
+      <div class="shop-icons">
+        <p id="items-quantity">0</p>
+        <img src="../images/gray-cart.svg" alt="cart-icon" id="shop-icon">
+      </div>
+      <img src="../images/image-avatar.png" alt="avatar" id="avatar-icon">
+    </div>
+  </header>
+  
+  <!--Shop Cart Modal-->
+  <div class="shop-cart empty">
+    <h3>Cart</h3>
+    <p id="empty-message">Your cart is empty</p>
+    <div class="with-items">
+      <div class="items">
+        <img src="../images/image-product-1-thumbnail.jpg">
+        <div class="item-details">
+          <p>Autumn Limited Edition...</p>
+          <div class="item-details-prices">
+            <p>$125.00</p>
+            <p>x</p>
+            <p id="cart-quantity">1</p>
+            <p id="total-price">$125.00</p>
+          </div>
+        </div>
+        <div class="delete-icon">
+          <i class="fa-solid fa-trash-can"></i>
+        </div>
+      </div>
+      <div class="checkout-button">
+        Checkout
+      </div>
+      
+    </div>
+  </div>
+
+  <!--Gallery Modal-->
+  <div class="gallery-modal">
+    <div class="gallery-container">
+      <img src="../images/icon-close.svg" alt="close" id="gall-close">
+      <div class="gallery-selected-img-container">
+        <img src="../images/icon-previous.svg" alt="previous" id="gall-previous"> 
+        <img src="../images/image-product-1.jpg" alt="gallery-main-img" class="gallery-selected-img">
+        <img src="../images/icon-next.svg" alt="next" id="gall-next">
+      </div>
+      <div class="gallery-thumbnails-container">
+        <div class="gall-thumbnail gal-selected" >
+          <img src="../images/image-product-1-thumbnail.jpg" class="gl-thumbnail">
+        </div>
+        <div class="gall-thumbnail">
+          <img src="../images/image-product-2-thumbnail.jpg" class="gl-thumbnail">
+        </div>
+        <div class="gall-thumbnail">
+          <img src="../images/image-product-3-thumbnail.jpg" class="gl-thumbnail">
+        </div>
+        <div class="gall-thumbnail">
+          <img src="../images/image-product-4-thumbnail.jpg" class="gl-thumbnail">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="main-container">
+      <section id="imgs-section">
+        <div class="big-img">
+          <img id="previous-icon" src="../images/icon-previous.svg" alt="previous">
+          <img class="main-img" src="../images/image-product-1.jpg" alt="big-img">
+          <img id="next-icon" src="../images/icon-next.svg" alt="next">
+        </div>
+
+        <div class="thumbnails">
+          <div class="border-thumbnail selected">
+            <img src="../images/image-product-1-thumbnail.jpg" alt="product-1" class="product-thumbnail">
+          </div>
+          <div class="border-thumbnail">
+            <img src="../images/image-product-2-thumbnail.jpg" alt="product-2" class="product-thumbnail">
+          </div>
+          <div class="border-thumbnail">
+            <img src="../images/image-product-3-thumbnail.jpg" alt="product-3" class="product-thumbnail">
+          </div>
+          <div class="border-thumbnail">
+            <img src="../images/image-product-4-thumbnail.jpg" alt="product-4" class="product-thumbnail">
+          </div>
+        </div>
+      </section>
+
+      <section id="details-section">
+        <div class="product-info">
+          <h3>SNEAKER COMPANY</h3>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everthing the weather can offer.</p>
+        </div>
+
+        <div class="product-prices">
+          <div class="product-current-price">
+            <h2>$125.00</h2>
+            <h3>50%</h4>
+          </div>
+          <div class="product-real-price">
+            <h4>$250.00</h4>
+          </div>
+          
+        </div>
+
+        <div class="product-buy">
+          <div class="product-buy-quantity">
+            <img src="../images/icon-minus.svg" alt="minus" id="minus-icon">
+            <p id="quantity-counter">0</p>
+            <img src="../images/icon-plus.svg" alt="plus" id="plus-icon">
+          </div>
+          <div class="product-buy-button">
+            <img src="../images/icon-cart.svg" alt="cart-icon">
+            <p>Add to cart</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mathías Tarazona</a>.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./javascript/scripts.js" type="module"></script>
+  <script src="./javascript/gallery-modal.js" type="module"></script>
+  <script src="./javascript/shop-modal.js"></script>
+</body>
+</html>
