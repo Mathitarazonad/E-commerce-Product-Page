@@ -29,19 +29,19 @@ Users should be able to:
 
 I only took pictures with a few of examples of the page like with shop cart open, the gallery in desktop, etc.
 
-![Desktop Design](./screenshots/desktop-design.png)
+[Desktop Design](./screenshots/desktop-design.png)
 
-![Desktop Gallery](./screenshots/desktop-gallery-open.png)
+[Desktop Gallery](./screenshots/desktop-gallery-open.png)
 
-![Tablet Design](./screenshots/tablet-design.png)
+[Tablet Design](./screenshots/tablet-design.png)
 
-![Mobile Design](./screenshots/mobile-design.png)
-
-![Mobile Cart with Items](./screenshots/mobile-shop-cart.png)
+[Mobile Design](./screenshots/mobile-design.png)
+ 
+[Mobile Cart with Items](./screenshots/mobile-shop-cart.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/Mathitarazonad/E-commerce-Product-Page
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
