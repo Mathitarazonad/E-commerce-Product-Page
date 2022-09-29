@@ -33,7 +33,7 @@ export function changeSelectedThumbnail (img) {
 };
 
 export function changeBigImg (img) {
-  bigImg.src = `../images/image-product-${img}.jpg`
+  bigImg.src = `./images/image-product-${img}.jpg`
 }
 
 nextIcon.addEventListener('click', () => {
