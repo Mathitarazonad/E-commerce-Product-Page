@@ -29,7 +29,7 @@ export function galChangeSelectedThumbnail (img) {
 };
 
 export function galChangeBigImg (img) {
-  galBigImg.src = `../images/image-product-${img}.jpg`
+  galBigImg.src = `./images/image-product-${img}.jpg`
 };
 
 galNextIcon.addEventListener('click', () => {
