@@ -42,7 +42,7 @@ I only took pictures with a few of examples of the page like with shop cart open
 ### Links
 
 - Solution URL: https://github.com/Mathitarazonad/E-commerce-Product-Page
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://mathitarazonad.github.io/E-commerce-Product-Page/
 
 ## My process
 
